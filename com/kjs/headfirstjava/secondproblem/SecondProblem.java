@@ -15,6 +15,8 @@ package com.kjs.headfirstjava.secondproblem;
  * Problem:
  * 1. As we have override implementation everywhere whenever we need to update fly method we need to make changes everywhere in call implementations.
  * 2. Now we can't make use of base class to carry the object as it doesn't contain the methods.
+ *
+ * Solution: Composition
  */
 public class SecondProblem {
     public static void main(String[] args) {
