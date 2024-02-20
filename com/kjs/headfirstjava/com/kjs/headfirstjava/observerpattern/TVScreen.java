@@ -14,6 +14,7 @@ public class TVScreen implements Observer{
 
     public TVScreen(Subject subject) {
         this.subject = subject;
+        this.subject.add(this);
     }
 
     @Override

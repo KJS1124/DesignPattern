@@ -13,10 +13,6 @@ public class ObserverApplication {
         Observer iphoneScreen = new IphoneScreen(subject);
         Observer tvScreen = new TVScreen(subject);
 
-        subject.add(normalScreen);
-        subject.add(iphoneScreen);
-        subject.add(tvScreen);
-
         subject.change(10,2,0);
         subject.change(20,6,0);
         subject.change(30,21,0);

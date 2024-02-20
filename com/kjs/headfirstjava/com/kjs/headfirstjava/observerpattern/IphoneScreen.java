@@ -14,6 +14,7 @@ public class IphoneScreen implements Observer {
 
     public IphoneScreen(Subject subject) {
         this.subject = subject;
+        this.subject.add(this);
     }
 
     @Override
